@@ -1,0 +1,40 @@
+header {
+    text-align: center;
+}
+
+header h1, p{
+    font-size: 50px;
+}
+
+.mainPics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.mainPics a {
+    margin: 50px;
+    text-decoration: none;
+}
+
+.altPics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.altPics a{
+    margin: 15px;
+    text-decoration: none;
+}
+
+
+.altPics img {
+    display: block;
+    /* height: auto; */
+    width: 150px;
+}
