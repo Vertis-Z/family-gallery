@@ -20,6 +20,10 @@ p {
   text-decoration: none;
 }
 
+.mainPics h3 {
+  color: rgb(87, 87, 87);
+}
+
 .altPics {
   display: flex;
   flex-wrap: wrap;
@@ -31,12 +35,23 @@ p {
 .altPics a {
   margin: 15px;
   text-decoration: none;
+  justify-content: center;
+}
+
+.altPics h3 {
+  color: rgb(87, 87, 87);
+  margin: auto;
 }
 
 .altPics img {
   display: block;
-  /* height: auto; */
   width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.profile {
+  margin: 15px;
 }
 
 /* styling for return to top button */
