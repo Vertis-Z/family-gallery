@@ -1,0 +1,19 @@
+header h1,
+p {
+  font-size: 2vw;
+}
+
+.galleryTitle {
+    font-size: 4vw;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    margin: 5px;
+}
