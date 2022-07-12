@@ -3,9 +3,31 @@ p {
   font-size: 2vw;
 }
 
-.galleryTitle {
-    font-size: 4vw;
+button {
+    border: none;
+    border-radius: 15px;
+    background-color: darkgrey;
     text-align: center;
+    height: 5vh;
+    font-size: large;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button a {
+    margin: 5px;
+}
+
+.galleryTitle {
+    display: flex;
+    font-size: 4vw;
+}
+
+.galleryTitle h3 {
+    margin: 15px auto;
 }
 
 .gallery {
