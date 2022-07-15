@@ -3,28 +3,6 @@ p {
   font-size: 2vw;
 }
 
-button {
-    border: 1px solid darkgray;
-    border-radius: 15px;
-    text-align: center;
-    height: 5vh;
-    font-size: large;
-}
-
-button:hover {
-    border: 1px solid black;
-    background-color: darkgray;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-}
-
-.button a {
-    margin: 5px;
-}
-
 .galleryTitle {
     display: flex;
     font-size: 4vw;

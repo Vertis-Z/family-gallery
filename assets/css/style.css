@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   text-align: center;
 }
@@ -5,6 +9,25 @@ header {
 header h1,
 p {
   font-size: 3vw;
+}
+
+body {
+  background-color: green;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
+img:hover {
+  /* filter: opacity(70%); */
+  filter: brightness(.75);
+}
+
+a:hover {
+  color: black;
 }
 
 .mainPics {
@@ -26,11 +49,6 @@ p {
 
 .mainPics h3 {
   color: rgb(87, 87, 87);
-}
-
-.mainPics img {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .altPics {
@@ -55,12 +73,6 @@ p {
 .altPics img {
   display: block;
   width: 12vw;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.altPics img:hover {
-  : rgba(219, 219, 219, 0.8);
 }
 
 .profile {
@@ -70,10 +82,6 @@ p {
 
 #topBtn:hover {
   background-color: #555;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .button {
