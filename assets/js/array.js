@@ -1,10 +1,15 @@
 // Declare an array object for our array of images
 let imageArray = [];
-let noImageArray = [];
 
 imageArray.push([
-  "../images/no-photo-icon-22.png",
-  "No Image",
+  // grandma //
+  "Julia Abarca Chavez",
+  [
+    "../image/so-photo-icon-22.png",
+    "../image/so-photo-icon-22.png",
+    "../image/so-photo-icon-22.png",
+    "../image/so-photo-icon-22.png",
+  ],
 ]);
 
 imageArray.push([
