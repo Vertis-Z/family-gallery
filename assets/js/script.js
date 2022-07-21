@@ -1,5 +1,14 @@
 var photoGet = function(data){
-    fetch 
+    fetch ('https://api.cloudinary.com/v1_1/:ddnmzux27/:action',{
+      "method": "GET"
+    }).then(Response => {
+      if (Response.ok){
+        return Response.json()
+        .then (function(data){
+          console.log(data)
+        })
+      }
+    })
 }
 
 
