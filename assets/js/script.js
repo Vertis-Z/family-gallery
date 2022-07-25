@@ -1,5 +1,31 @@
-// <--------------- Scroll to top button ------------------>
+const onClick = function() {
+  // localStorage.setItem("person", JSON.stringify(this.id));
+  localStorage.clear();
+  localStorage.setItem("person", this.id);
+  window.location.href = "./assets/html/gallery-temp.html";
+}
+document.getElementById("person000").onclick = onClick;
+document.getElementById("person001").onclick = onClick;
+document.getElementById("person002").onclick = onClick;
+document.getElementById("person003").onclick = onClick;
+document.getElementById("person004").onclick = onClick;
+document.getElementById("person005").onclick = onClick;
+document.getElementById("person006").onclick = onClick;
+document.getElementById("person007").onclick = onClick;
+document.getElementById("person008").onclick = onClick;
+document.getElementById("person009").onclick = onClick;
+document.getElementById("person010").onclick = onClick;
+document.getElementById("person011").onclick = onClick;
+document.getElementById("person012").onclick = onClick;
+document.getElementById("person013").onclick = onClick;
+document.getElementById("person014").onclick = onClick;
+document.getElementById("person015").onclick = onClick;
+document.getElementById("person016").onclick = onClick;
+document.getElementById("person017").onclick = onClick;
+document.getElementById("person018").onclick = onClick;
+document.getElementById("person019").onclick = onClick;
 
+// <--------------- Scroll to top button ------------------>
 //Get the button:
 mybutton = document.getElementById("topBtn");
 
