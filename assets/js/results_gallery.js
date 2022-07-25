@@ -10,7 +10,8 @@ var display = function () {
   var personData = localStorage.getItem("person");
 
   var insertName = document.getElementById("titleName");
-  insertName.textContent += " de " + personData; //.name;
+  insertName.textContent += " de " + personData.name;
+
   // -------- IMG For Loop------------
   for (let i = 0; i < localStorage.getItem("person").image.length; i++) {
     let galleryImage = localStorage.getItem("person").image[i];
