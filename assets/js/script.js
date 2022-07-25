@@ -1,9 +1,10 @@
-const onClick = function() {
+const onClick = function () {
   // localStorage.setItem("person", JSON.stringify(this.id));
   localStorage.clear();
   localStorage.setItem("person", this.id);
   window.location.href = "./assets/html/gallery-temp.html";
-}
+};
+
 document.getElementById("person000").onclick = onClick;
 document.getElementById("person001").onclick = onClick;
 document.getElementById("person002").onclick = onClick;
