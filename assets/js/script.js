@@ -1,5 +1,4 @@
 const onClick = function () {
-  // localStorage.setItem("person", JSON.stringify(this.id));
   window.localStorage.clear();
   window.localStorage.setItem("person", JSON.stringify(this.id));
   window.location.assign("./assets/html/gallery-temp.html");
