@@ -1,4 +1,6 @@
-let personArray = {
+let noImage = "../image/no_photo.png";
+
+const personArray = {
     person000: {
       name: "Jesus Mendoza Oseguera",
       profile: noImage,
@@ -113,7 +115,7 @@ let personArray = {
       image: [noImage, noImage],
     },
   
-    person019: {
+    "person019": {
       name: "Julia Abarca Chavez",
       profile: "Julia_Abarca_Chaves_Profile_IMG.jpg",
       image: [noImage, noImage],

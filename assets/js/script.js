@@ -1,7 +1,8 @@
 const onClick = function () {
   // localStorage.setItem("person", JSON.stringify(this.id));
-  localStorage.clear();
-  localStorage.setItem("person", this.id);
+  window.localStorage.clear();
+  window.localStorage.setItem("person", JSON.stringify(this.id));
+  window.location.assign("./assets/html/gallery-temp.html");
   window.location.href = "./assets/html/gallery-temp.html";
 };
 

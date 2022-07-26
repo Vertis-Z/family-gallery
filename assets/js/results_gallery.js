@@ -5,10 +5,10 @@ const onClick = function () {
   localStorage.setItem("person", this.id);
   window.location.href = "./assets/html/gallery-temp.html";
 };
+
 // need to create a function using the data below
 var display = function () {
-  var personData = localStorage.getItem("person");
-
+  var personData = JSON.parse(window.localStorage.getItem("person")) || [];
   var insertName = document.getElementById("titleName");
   insertName.textContent += " de " + personData.name;
 
