@@ -1,8 +1,13 @@
 const onClick = function () {
-  window.localStorage.clear();
+  window.localStorage.removeItem("person");
   window.localStorage.setItem("person", JSON.stringify(this.id));
   window.location.assign("./assets/html/gallery-temp.html");
-  window.location.href = "./assets/html/gallery-temp.html";
+};
+
+const onClickChild = function () {
+  window.localStorage.removeItem("person");
+  window.localStorage.setItem("person", JSON.stringify(this.id));
+  window.location.assign("./assets/html/profile-temp.html");
 };
 
 document.getElementById("person000").onclick = onClick;
@@ -16,6 +21,7 @@ document.getElementById("person007").onclick = onClick;
 document.getElementById("person008").onclick = onClick;
 document.getElementById("person009").onclick = onClick;
 document.getElementById("person010").onclick = onClick;
+document.getElementById("person010-c").onclick = onClickChild;
 document.getElementById("person011").onclick = onClick;
 document.getElementById("person012").onclick = onClick;
 document.getElementById("person013").onclick = onClick;
@@ -25,6 +31,7 @@ document.getElementById("person016").onclick = onClick;
 document.getElementById("person017").onclick = onClick;
 document.getElementById("person018").onclick = onClick;
 document.getElementById("person019").onclick = onClick;
+document.getElementById("person019-c").onclick = onClickChild;
 
 // <--------------- Scroll to top button ------------------>
 //Get the button:

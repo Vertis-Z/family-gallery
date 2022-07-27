@@ -1,4 +1,4 @@
-// -------- Person name-------------
+// -------- Get Person ID# -------------
 const onClick = function () {
   // localStorage.setItem("person", JSON.stringify(this.id));
   localStorage.clear();
