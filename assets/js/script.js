@@ -7,8 +7,8 @@ const onClick = function () {
 
 const onClickChild = function () {
   window.localStorage.removeItem("person");
-  window.localStorage.setItem("person", JSON.stringify(this.id));
-  // window.localStorage.setItem("person", this.id);
+  // window.localStorage.setItem("person", JSON.stringify(this.id));
+  window.localStorage.setItem("person", this.id);
   window.location.assign("./assets/html/profile-temp.html");
 };
 

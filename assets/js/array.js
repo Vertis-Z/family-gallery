@@ -182,7 +182,7 @@ const person028 = {
 
 const person029 = {
   name: "Lourdes Mendoza Abarca",
-  profile: "../images/Lourdes_Mendoza_Abarca_Profile_img.png",
+  profile: "../image/Lourdes_Mendoza_Abarca_Profile_img.png",
   image: [noImage, noImage],
 };
 

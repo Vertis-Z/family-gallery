@@ -1,11 +1,12 @@
 header h1,
 p {
-  font-size: 2vw;
+  font-size: 4vw;
 }
 
 .galleryTitle {
     display: flex;
     font-size: 4vw;
+    text-align: center;
 }
 
 .galleryTitle h3 {
@@ -20,4 +21,6 @@ p {
 
 .gallery img {
     margin: 5px;
+    max-width: 40vw;
+    max-height: auto;
 }

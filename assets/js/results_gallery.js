@@ -1,13 +1,9 @@
 // -------- Get Person ID# -------------
 const onClick = function () {
   window.localStorage.removeItem("person");
-  // window.localStorage.setItem("person", JSON.stringify(this.id));
   window.localStorage.setItem("person", this.id);
   window.location.assign("./assets/html/gallery-temp.html");
 };
-
-// let personData = JSON.parse(window.localStorage.getItem("person"));
-// personData = window.localStorage.getItem("person");
 
 // create an if argument that sets eatch Localstorage value as a string
 var personData = "";
