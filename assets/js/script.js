@@ -1,14 +1,18 @@
 const onClick = function () {
   window.localStorage.removeItem("person");
-  window.localStorage.setItem("person", JSON.stringify(this.id));
+  // window.localStorage.setItem("person", JSON.stringify(this.id));
+  window.localStorage.setItem("person", this.id);
   window.location.assign("./assets/html/gallery-temp.html");
 };
 
 const onClickChild = function () {
   window.localStorage.removeItem("person");
   window.localStorage.setItem("person", JSON.stringify(this.id));
+  // window.localStorage.setItem("person", this.id);
   window.location.assign("./assets/html/profile-temp.html");
 };
+
+var i = 001
 
 document.getElementById("person000").onclick = onClick;
 document.getElementById("person001").onclick = onClick;
