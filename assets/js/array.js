@@ -34,7 +34,12 @@ const person004 = {
 const person005 = {
   name: "Maximiliano Mendoza Diaz",
   profile: "../image/Maximiliano_Mendoza_Diaz_Profile_img.png",
-  image: [noImage, noImage],
+  image: [
+    noImage,
+    noImage,
+    "../image/Maximiliano_Mendoza_Diaz-1.png",
+    "../image/Maximiliano_Mendoza_Diaz-2.png",
+  ],
 };
 
 const person006 = {
@@ -123,7 +128,7 @@ const person019 = {
 
 const person020 = {
   name: "Margarita Mendoza Abarca",
-  profile: noImage,
+  profile: "../image/Margarita_Mendoza_Abarca_Profile_IMG.jpg",
   image: [noImage, noImage],
 };
 
@@ -135,7 +140,7 @@ const person021 = {
 
 const person022 = {
   name: "Leticia Mendoza Abarca",
-  profile: noImage,
+  profile: "../image/Leticia_Mendoza_Abarca_Profile_img.jpg",
   image: [noImage, noImage],
 };
 
@@ -147,37 +152,37 @@ const person023 = {
 
 const person024 = {
   name: "Rigoberto Mendoza Abarca",
-  profile: noImage,
+  profile: "../image/Rigoberto_Mendoza_Abarca_profile_img.jpg",
   image: [noImage, noImage],
 };
 
 const person025 = {
   name: "Alfonso Mendoza Abarca",
-  profile: noImage,
+  profile: "../image/Alfonso_Menoza_Abarca_profile_img.jpg",
   image: [noImage, noImage],
 };
 
 const person026 = {
   name: "Jose Luis Manuel Mendoza Abarca",
-  profile: noImage,
+  profile: "../image/Jose_Luis_Mendoza_Abarca_Profile_img.jpg",
   image: [noImage, noImage],
 };
 
 const person027 = {
   name: "Maria Angelica Mendoza Abarca",
-  profile: noImage,
+  profile: "../image/Maria_Angelica_Mendoza_Abarca_Profile_img.png",
   image: [noImage, noImage],
 };
 
 const person028 = {
   name: "Blanca Mendoza Abarca",
-  profile: noImage,
+  profile: "../image/Blanca_Mendoza_Abarca_Profile_img.png",
   image: [noImage, noImage],
 };
 
 const person029 = {
   name: "Lourdes Mendoza Abarca",
-  profile: noImage,
+  profile: "../images/Lourdes_Mendoza_Abarca_Profile_img.png",
   image: [noImage, noImage],
 };
 
@@ -451,6 +456,7 @@ const person074 = {
   image: [noImage, noImage],
 };
 
+// Children portion of array
 person000.children = [
   person002,
   person003,
@@ -574,3 +580,25 @@ person062.children = [person063, person064, person065, person066];
 person028.children = [person068, person069, person070, person071];
 
 person029.children = [person073, person074];
+
+// Partner portion of array
+person000.partner = [person001];
+person001.partner = [person000];
+person012.partner = [person013];
+person013.partner = [person012];
+person010.partner = [person019];
+person019.partner = [person010];
+person020.partner = [person031];
+person031.partner = [person020];
+person021.partner = [person034];
+person034.partner = [person021];
+person022.partner = [person037];
+person037.partner = [person022];
+person023.partner = [person042];
+person042.partner = [person023];
+person024.partner = [person045];
+person045.partner = [person024];
+person025.partner = [person048];
+person048.partner = [person025];
+person027.partner = [person062];
+person062.partner = [person027];
