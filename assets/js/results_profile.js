@@ -160,18 +160,52 @@ if (localStorage.person == "person000-c") {
 } else alert("ERROR PERSON NOT FOUND!");
 
 var display = function () {
+  // partner images
+  let mainImg = personData.profile;
+  let mainName = personData.name;
+  let partImg;
+  if ((personData.partner[0].profile = null)) {
+    partImg = "";
+  } else {
+    partImg = personData.partner[0].profile;
+  }
+  let partName;
+  if ((personData.partner[0].name = null)) {
+    partName = "";
+  } else {
+    partName = personData.partner[0].name;
+  }
+  let personCard = document.createElement("div");
+  personCard.setAttribute("class", "profile");
+  personCard.setAttribute("id", "profile");
+  let cardCont = document.createElement("a");
+  cardCont.setAttribute("href", "#");
+  let mainImgCont = document.createElement("img");
+  mainImgCont.setAttribute("src", mainImg);
+  let mainNameCont = document.createElement("h3");
+  let mainNameText = document.createTextNode(mainName);
+  let partImgCont = document.createElement("img");
+  partImgCont.setAttribute("src", partImg);
+  let partNameCont = document.createElement("h3");
+  let partNameText = document.createTextNode(partName);
+
+  document.getElementById("mainPics").append(personCard);
+  personCard.append(cardCont);
+  cardCont.append(mainImg);
+  cardCont.append(mainNameCont);
+  mainName.append(mainNameText);
 
 
   // -------- child For Loop------------
   for (let i = 0; i < personData.children.length; i++) {
-    let childImage = personData.children[i].profile;
-    let childName = personData.children[i].name;
-    let pic = document.createElement("img");
-    let name = document.createElement("h3");
-    pic.src = childImage;
-    name.innerText = childName;
-    var div = document.getElementById("altPics");
-    div.appendChild(pic,name);
+    // let childImage = personData.children[i].profile;
+    // let childName = personData.children[i].name;
+    // let pic = document.createElement("img");
+    // let name = document.createElement("h3");
+    // var div = document.getElementById("altPics");
+    // pic.src = childImage;
+    // name.innerText = childName;
+    // div.appendChild(pic,name);
   }
 };
 
