@@ -6,174 +6,174 @@ const onClick = function () {
 };
 
 // create an if argument that sets eatch Localstorage value as a string
-var personData = "";
+var personProfile = "";
 if (localStorage.person == "person000-c") {
-  personData = person000;
+  personProfile = person000;
 } else if (localStorage.person == "person001-c") {
-  personData = person001;
+  personProfile = person001;
 } else if (localStorage.person == "person002-c") {
-  personData = person002;
+  personProfile = person002;
 } else if (localStorage.person == "person003-c") {
-  personData = person003;
+  personProfile = person003;
 } else if (localStorage.person == "person004-c") {
-  personData = person004;
+  personProfile = person004;
 } else if (localStorage.person == "person005-c") {
-  personData = person005;
+  personProfile = person005;
 } else if (localStorage.person == "person006-c") {
-  personData = person006;
+  personProfile = person006;
 } else if (localStorage.person == "person007-c") {
-  personData = person007;
+  personProfile = person007;
 } else if (localStorage.person == "person008-c") {
-  personData = person008;
+  personProfile = person008;
 } else if (localStorage.person == "person009-c") {
-  personData = person009;
+  personProfile = person009;
 } else if (localStorage.person == "person010-c") {
-  personData = person010;
+  personProfile = person010;
 } else if (localStorage.person == "person011-c") {
-  personData = person011;
+  personProfile = person011;
 } else if (localStorage.person == "person012-c") {
-  personData = person012;
+  personProfile = person012;
 } else if (localStorage.person == "person013-c") {
-  personData = person013;
+  personProfile = person013;
 } else if (localStorage.person == "person014-c") {
-  personData = person014;
+  personProfile = person014;
 } else if (localStorage.person == "person015-c") {
-  personData = person015;
+  personProfile = person015;
 } else if (localStorage.person == "person016-c") {
-  personData = person016;
+  personProfile = person016;
 } else if (localStorage.person == "person017-c") {
-  personData = person017;
+  personProfile = person017;
 } else if (localStorage.person == "person018-c") {
-  personData = person018;
+  personProfile = person018;
 } else if (localStorage.person == "person019-c") {
-  personData = person019;
+  personProfile = person019;
 } else if (localStorage.person == "person020-c") {
-  personData = person020;
+  personProfile = person020;
 } else if (localStorage.person == "person021-c") {
-  personData = person021;
+  personProfile = person021;
 } else if (localStorage.person == "person022-c") {
-  personData = person022;
+  personProfile = person022;
 } else if (localStorage.person == "person023-c") {
-  personData = person023;
+  personProfile = person023;
 } else if (localStorage.person == "person024-c") {
-  personData = person024;
+  personProfile = person024;
 } else if (localStorage.person == "person025-c") {
-  personData = person025;
+  personProfile = person025;
 } else if (localStorage.person == "person026-c") {
-  personData = person026;
+  personProfile = person026;
 } else if (localStorage.person == "person027-c") {
-  personData = person027;
+  personProfile = person027;
 } else if (localStorage.person == "person028-c") {
-  personData = person028;
+  personProfile = person028;
 } else if (localStorage.person == "person029-c") {
-  personData = person029;
+  personProfile = person029;
 } else if (localStorage.person == "person030-c") {
-  personData = person030;
+  personProfile = person030;
 } else if (localStorage.person == "person031-c") {
-  personData = person031;
+  personProfile = person031;
 } else if (localStorage.person == "person032-c") {
-  personData = person032;
+  personProfile = person032;
 } else if (localStorage.person == "person033-c") {
-  personData = person033;
+  personProfile = person033;
 } else if (localStorage.person == "person034-c") {
-  personData = person034;
+  personProfile = person034;
 } else if (localStorage.person == "person035-c") {
-  personData = person035;
+  personProfile = person035;
 } else if (localStorage.person == "person036-c") {
-  personData = person036;
+  personProfile = person036;
 } else if (localStorage.person == "person037-c") {
-  personData = person037;
+  personProfile = person037;
 } else if (localStorage.person == "person038-c") {
-  personData = person038;
+  personProfile = person038;
 } else if (localStorage.person == "person039-c") {
-  personData = person039;
+  personProfile = person039;
 } else if (localStorage.person == "person040-c") {
-  personData = person040;
+  personProfile = person040;
 } else if (localStorage.person == "person041-c") {
-  personData = person041;
+  personProfile = person041;
 } else if (localStorage.person == "person042-c") {
-  personData = person042;
+  personProfile = person042;
 } else if (localStorage.person == "person043-c") {
-  personData = person043;
+  personProfile = person043;
 } else if (localStorage.person == "person044-c") {
-  personData = person044;
+  personProfile = person044;
 } else if (localStorage.person == "person045-c") {
-  personData = person045;
+  personProfile = person045;
 } else if (localStorage.person == "person046-c") {
-  personData = person046;
+  personProfile = person046;
 } else if (localStorage.person == "person047-c") {
-  personData = person047;
+  personProfile = person047;
 } else if (localStorage.person == "person048-c") {
-  personData = person048;
+  personProfile = person048;
 } else if (localStorage.person == "person049-c") {
-  personData = person049;
+  personProfile = person049;
 } else if (localStorage.person == "person050-c") {
-  personData = person050;
+  personProfile = person050;
 } else if (localStorage.person == "person051-c") {
-  personData = person051;
+  personProfile = person051;
 } else if (localStorage.person == "person052-c") {
-  personData = person052;
+  personProfile = person052;
 } else if (localStorage.person == "person053-c") {
-  personData = person053;
+  personProfile = person053;
 } else if (localStorage.person == "person054-c") {
-  personData = person054;
+  personProfile = person054;
 } else if (localStorage.person == "person055-c") {
-  personData = person055;
+  personProfile = person055;
 } else if (localStorage.person == "person056-c") {
-  personData = person056;
+  personProfile = person056;
 } else if (localStorage.person == "person057-c") {
-  personData = person057;
+  personProfile = person057;
 } else if (localStorage.person == "person058-c") {
-  personData = person058;
+  personProfile = person058;
 } else if (localStorage.person == "person059-c") {
-  personData = person059;
+  personProfile = person059;
 } else if (localStorage.person == "person060-c") {
-  personData = person060;
+  personProfile = person060;
 } else if (localStorage.person == "person061-c") {
-  personData = person061;
+  personProfile = person061;
 } else if (localStorage.person == "person062-c") {
-  personData = person062;
+  personProfile = person062;
 } else if (localStorage.person == "person063-c") {
-  personData = person063;
+  personProfile = person063;
 } else if (localStorage.person == "person064-c") {
-  personData = person064;
+  personProfile = person064;
 } else if (localStorage.person == "person065-c") {
-  personData = person065;
+  personProfile = person065;
 } else if (localStorage.person == "person066-c") {
-  personData = person066;
+  personProfile = person066;
 } else if (localStorage.person == "person067-c") {
-  personData = person067;
+  personProfile = person067;
 } else if (localStorage.person == "person068-c") {
-  personData = person068;
+  personProfile = person068;
 } else if (localStorage.person == "person069-c") {
-  personData = person069;
+  personProfile = person069;
 } else if (localStorage.person == "person070-c") {
-  personData = person070;
+  personProfile = person070;
 } else if (localStorage.person == "person071-c") {
-  personData = person071;
+  personProfile = person071;
 } else if (localStorage.person == "person072-c") {
-  personData = person072;
+  personProfile = person072;
 } else if (localStorage.person == "person073-c") {
-  personData = person073;
+  personProfile = person073;
 } else if (localStorage.person == "person074-c") {
-  personData = person074;
+  personProfile = person074;
 } else alert("ERROR PERSON NOT FOUND!");
 
 var display = function () {
   // partner images
-  let mainImg = personData.profile;
-  let mainName = personData.name;
+  let mainImg = personProfile.profile;
+  let mainName = personProfile.name;
   let partImg;
-  if ((personData.partner[0].profile = null)) {
+  if ((personProfile.partner[0].profile = null)) {
     partImg = "";
   } else {
-    partImg = personData.partner[0].profile;
+    partImg = personProfile.partner[0].profile;
   }
   let partName;
-  if ((personData.partner[0].name = null)) {
+  if ((personProfile.partner[0].name = null)) {
     partName = "";
   } else {
-    partName = personData.partner[0].name;
+    partName = personProfile.partner[0].name;
   }
   let personCard = document.createElement("div");
   personCard.setAttribute("class", "profile");
@@ -197,9 +197,9 @@ var display = function () {
 
 
   // -------- child For Loop------------
-  for (let i = 0; i < personData.children.length; i++) {
-    // let childImage = personData.children[i].profile;
-    // let childName = personData.children[i].name;
+  for (let i = 0; i < personProfile.children.length; i++) {
+    // let childImage = personProfile.children[i].profile;
+    // let childName = personProfile.children[i].name;
     // let pic = document.createElement("img");
     // let name = document.createElement("h3");
     // var div = document.getElementById("altPics");
