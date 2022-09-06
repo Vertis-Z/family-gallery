@@ -191,9 +191,9 @@ var display = function () {
 
   document.getElementById("mainPics").append(personCard);
   personCard.append(cardCont);
-  cardCont.append(mainImg);
+  cardCont.append(mainImgCont);
   cardCont.append(mainNameCont);
-  mainName.append(mainNameText);
+  mainNameCont.append(mainNameText);
 
 
   // -------- child For Loop------------
