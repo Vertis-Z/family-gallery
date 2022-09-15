@@ -80,6 +80,10 @@ a:hover {
   justify-content: center;
 }
 
+.profile a {
+  margin-left: auto;
+}
+
 #topBtn:hover {
   background-color: #555;
 }
